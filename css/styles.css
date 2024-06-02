@@ -587,6 +587,7 @@ footer>.container {
 
 .footer-send-form {
   display: flex;
+  gap: 24px;
 }
 
 .footer-send-label {
@@ -595,10 +596,10 @@ footer>.container {
 }
 
 .footer-send-label-text {
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 
-..footer-send-area {
+.footer-send-area {
   font-weight: 400;
   font-size: 12px;
   line-height: 2;
