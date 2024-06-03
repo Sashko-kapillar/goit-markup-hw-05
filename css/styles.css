@@ -664,7 +664,7 @@ input:placeholder-shown {
   flex-direction: column;
   border-radius: 4px;
   width: 408px;
-  height: 584px;
+  /* height: 584px; */
   align-items: center;
   background: #fcfcfc;
 }
@@ -676,17 +676,24 @@ input:placeholder-shown {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  padding: 76px 24px 16px;
 }
 
 .modal-form {
   border-radius: 4px;
   width: 360px;
-  height: 336px;
+  /* height: 336px; */
 }
 
 .modal-label {
   display: flex;
   flex-direction: column;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  padding-bottom: 4px;
 }
 
 .modal-input {
@@ -694,12 +701,53 @@ input:placeholder-shown {
   border-radius: 4px;
   width: 360px;
   height: 40px;
+  margin-bottom: 8px;
 }
 
-/* .modal-textarea {
+.modal-textarea {
   width: 360px;
   height: 120px;
-} */
+}
+
+.modal-label-checkbox {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  padding-left: 8px;
+}
+
+.modal-link {
+  display: inline-flex;
+  line-height: 1.33333;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #4d5ae5;
+  align-self: flex-end;
+}
+
+.modal-submit {
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+  margin: 24px auto;
+}
+
+.modal-btn-container {
+  display: flex;
+}
+
 
 
 /* -----------    Footer end  --------- */
