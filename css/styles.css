@@ -742,9 +742,9 @@ input:placeholder-shown {
   margin-bottom: 8px;
 }
 
-.modal-label {
-  display: flex;
-  flex-direction: column;
+.input-container {
+  display: block;
+  /* flex-direction: column; */
   font-weight: 400;
   font-size: 12px;
   line-height: 1.16667;
