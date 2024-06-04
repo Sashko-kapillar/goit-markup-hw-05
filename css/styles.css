@@ -647,8 +647,8 @@ input:placeholder-shown {
 
 }
 
-.modal-container-overlay {
-  display: flex;
+.backdrop {
+  /* display: flex; */
   position: fixed;
   top: 0;
   left: 0;
@@ -664,11 +664,11 @@ input:placeholder-shown {
 }
 
 .modal-container {
-  display: flex;
   flex-direction: column;
   position: absolute;
   top: 50%;
   left: 50%;
+  transform: translate(-50%, -50%);
   border-radius: 4px;
   width: 408px;
   min-height: 584px;
