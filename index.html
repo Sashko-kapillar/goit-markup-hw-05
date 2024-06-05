@@ -472,11 +472,14 @@
           <textarea name="user-comment" class="modal-input modal-textarea" id="user-comment" placeholder="Text input">
           </textarea>
         </div>
-        <input type="checkbox" name="validation" class="modal-checkbox">
-        <label class="modal-label-checkbox">I accept the terms and conditions of the
-        </label>
-        <a class="modal-label-checkbox modal-link">Privacy Policy</a>
-
+        <div class="checkbox-container">
+          <input type="checkbox" name="user-privacy" class="modal-checkbox" id="user-privacy" value="true">
+          <label for="user-privacy" class="modal-label-checkbox">I accept the terms and conditions of the
+          </label>
+          <a class="modal-label-checkbox modal-link">
+            Privacy Policy
+          </a>
+        </div>
         <div class="modal-btn-container">
           <button type="submit" class="modal-submit-btn">Send</button>
         </div>
