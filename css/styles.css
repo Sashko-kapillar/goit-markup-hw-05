@@ -584,7 +584,7 @@ footer>.container {
 
 .footer-send-container {
   display: flex;
-
+  flex-direction: column;
 }
 
 .footer-send-form {
@@ -620,9 +620,10 @@ input:placeholder-shown {
   color: #ffffff;
 }
 
-.footer-button {
-  display: inline-flex;
-  position: relative;
+.footer-btn {
+  display: flex;
+  /* display: inline-flex;
+  position: relative; */
   border-radius: 4px;
   padding: 8px 24px;
   min-width: 165px;
@@ -635,17 +636,16 @@ input:placeholder-shown {
   color: #fff;
   border: none;
   cursor: pointer;
-  margin-top: 40px;
-  margin-left: 24px;
-  justify-content: center;
-  align-items: center;
+  /* margin-top: 40px; */
+  /* margin-left: 24px; */
+  /* justify-content: center;
+  align-items: center; */
 }
 
 .footer-send-icon {
   margin-left: 16px;
-  justify-content: center;
-
 }
+
 
 /* -----------    Footer end  --------- */
 
@@ -665,6 +665,15 @@ input:placeholder-shown {
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
 }
 
 .modal-container {
