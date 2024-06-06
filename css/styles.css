@@ -775,6 +775,10 @@ input:placeholder-shown {
   padding-left: 38px;
 }
 
+.input-container .modal-input:focus+.modal-icon {
+  fill: #4D5AE5;
+}
+
 .input-container .modal-icon {
   fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
